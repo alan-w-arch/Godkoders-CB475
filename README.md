@@ -15,4 +15,5 @@ In this site we have made 5 sections in blogs page in which each one denotes a k
 4 . Values
 5 . Artifacts
 
+![image](https://github.com/alan-w-arch/Godkoders-CB475/assets/149961061/d88eefc8-b3f2-43a7-8991-62a0dade915e)
 
