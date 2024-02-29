@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Heritage of india</title>
+  <style>
+
+    .navbar {
+      background: linear-gradient(to bottom, #de9c63, #b54405);
+      padding: 1rem 0;
+    }
+  
+    .navbar .navbar-brand {
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 40px;
+      color: #d6ebff;
+      padding-left: 1rem;
+      font-family: "Roboto Mono", monospace;
+    }
+
+    .navbar-nav .nav-item {
+    margin: 1rem; /* Add space to each button */
+    }
+  
+    .navbar-nav .nav-item .nav-link {
+      color: #d6ebff;
+      padding: 1rem 1rem; /* Add padding on both right and left */
+    }
+  
+    .navbar-nav .nav-item.active .nav-link {
+      background: linear-gradient(to bottom, transparent, #d6d8d4, #cec1ba, #b6a59e, #988585);
+      border: none;
+      color: #d6ebff;
+      border-radius: 0;
+    }
+
+    .navbar-toggler-icon {
+    color: #d6ebff; /* Change the color of the navbar-toggler-icon */
+    }
+
+    .custom-card {
+      border: 4px solid black; /* 4px black border */
+      box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2); /* 4px shadow on bottom and right side */
+    }
+
+    .mb-custom {
+      margin-right: 2rem; /* Custom margin for extra spacing */
+      margin-left: 2rem;
+    }
+
+    .custom-button {
+      background: linear-gradient(to bottom, #29a4c3, #318db2, #046997, #003b61);
+      border: none;
+      color: white;
+    }
+
+    body{
+     background: linear-gradient(to bottom, transparent, #678cae);
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand Roboto-mono" href="#">Heritage of India</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blogs">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--Carousel for page -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/images/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/images/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+    <!--blogs page under construction -->
+    <!--div id="Blogs"  class="about-container my-5">
+      <h1 class=" display-4 h3" style="text-align: center;"><strong>Blogs</strong></h1>
+    </div>
+    <div class="card mb-3 .custom-card">
+      <img src="/images/temp1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+</div-->
+
+
+
+
+    <div id="About" class="about-container my-5">
+      <h1 class="display-4 h3" style="text-align: center;"><strong>About</strong></h1>
+    </div>
+    <div class="about-container mx-5 " style="text-align: center;">
+      <p class="centered-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, hic qui pariatur reprehenderit sed itaque quas. Suscipit nihil repellat eligendi sit libero pariatur porro vitae? Placeat error nisi voluptatem ut, possimus iure quo illum neque nulla laborum doloremque fugiat facere adipisci, soluta sunt rerum eaque praesentium hic? Numquam, a sed.</p>
+      <p class="centered-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos hic ipsum et praesentium quod consequuntur doloribus dolore est ratione, omnis voluptatum magnam quo, officiis aliquam voluptate mollitia similique harum veritatis soluta quos? Sint vero tenetur totam quaerat ea nulla sunt corrupti maxime et facere corporis quos quis beatae dolore, impedit harum porro voluptatem illum. Maxime, libero. Nihil maxime perferendis amet.</p>
+      <p class="centered-text display-7 h3"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sed sunt quaerat ipsa fugit quibusdam veritatis, magni vitae ut architecto sequi, obcaecati deserunt, repudiandae rerum qui! Mollitia corrupti magnam sequi quam deleniti! Officiis facere iste molestiae consequuntur animi illum!</strong></p>
+    </div>
+    
+    
+    
+    <footer class="text-center text-white min-vh-3 mt-5" style="background : linear-gradient(to bottom, #29a4c3, #318db2, #046997) ;">
+      <!-- Copyright -->
+      <div class="text-center text-light p-3" style="background-color: black ;">
+        © 2024 Copyright:
+        <a class="text-light" href="http://waterpollution.rf.gd">Untitled</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
